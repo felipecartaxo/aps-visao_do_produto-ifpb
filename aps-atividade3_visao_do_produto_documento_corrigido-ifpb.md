@@ -134,19 +134,19 @@ Segue tabela com os usuários e atores do sistema:
 | Clientes | Pessoas que utilizam o sistema para manter o inventário atualizado e/ou realizar consultas. | Registrar os equipamentos de informática e de consumo adquiridos. Atualizar a quantidade, situação, localização e demais informações acerca dos equipamentos. Realizar consultas. | Usuário |
 | Atendente de suporte | Profissional responsável por atender os clientes e fornecer suporte em relação ao uso do sistema. | Atender as solicitações dos clientes relacionadas ao registro de equipamentos e demais funcionalidades do SIEI. | Equipe de Suporte, Usuários |
 | Product Owner | Profissional que entende das regras de negócio da SGTI e que auxilia a equipe de desenvolvimento do SIEI. | Acompanhar a rotina dos funcionários da SGTI. Repassar demandas da SGTI para a equipe de desenvolvimento. Auxiliar a equipe de desenvolvimento na implementação de novas funcionalidades | Equipe de Desenvolvimento, Usuários |
-| Administrador do Sistema | Profissional responsável por gerenciar e manter o sistema. | Gerenciar os usuários do sistema, realizar backup dos dados, atualizar o sistema e garantir o seu funcionamento adequado. | Equipe de Desenvolvimento, Gerente de Projeto                                                   |
+| Administrador do Sistema | Profissional responsável por realizar backups, gerenciar e manter o sistema. | Realizar backup dos dados, gerenciar os usuários do sistema, atualizar o sistema e garantir o seu funcionamento adequado. | Equipe de Desenvolvimento, Gerente de Projeto                                                   |
 
 ---
 
-<!-- TODO # Descrição do ambiente de uso
+TODO # Descrição do ambiente de uso
 
 ## Ambiente de uso
 
 A seguir, são descritos alguns ambientes em que o sistema pode ser utilizado:
 
-1. **Ambiente do Cliente**: Neste ambiente, o sistema é utilizado pelos clientes para controlar os equipamentos adquiridos. Os clientes podem acessar o sistema através de um navegador web em seus dispositivos mobile ou desktop. O navegador web poderá ser o Google Chrome, Mozilla Firefox ou Microsoft Edge com acesso através do endereço web <https://www.empreender.pb.gov.com.br/siei>. O ambiente do cliente é acessado através da internet e requer um login e senha de acesso. A segurança dos dados será garantida por meio de autenticação e autorização, assegurando que somente usuários com as devidas permissões possam visualizar e manipular as informações do inventário.
+1. **Ambiente do Cliente**: Neste ambiente, o sistema é utilizado pelos clientes para controlar os equipamentos adquiridos. Os clientes podem acessar o sistema através de um navegador web em seus dispositivos mobile ou desktop. O navegador web poderá ser o Google Chrome, Mozilla Firefox ou Microsoft Edge com acesso através do endereço web https://www.empreender.pb.gov.com.br/siei/login. O ambiente do cliente é acessado através da internet e requer um login e senha de acesso.
 2. **Ambiente Administrativo:** Neste ambiente, o sistema é utilizado pelos administradores do sistema para gerenciar e manter o sistema. Os administradores podem acessar o sistema através de um navegador web em um computador, e possuem acesso a recursos de gerenciamento, como gerenciamento de usuários, backup dos dados, e atualização do sistema.
-3. **Ambiente de Teste:** Neste ambiente, o sistema é utilizado para testar novas funcionalidades e correções de bugs antes de serem disponibilizadas para os usuários finais. O ambiente de teste é acessado através de um navegador web em um computador, e requer um login e senha de acesso específicos para o ambiente de teste. -->
+3. **Ambiente de Teste:** Neste ambiente, o sistema é utilizado para testar novas funcionalidades e correções de bugs antes de serem disponibilizadas para os usuários finais. O ambiente de teste é acessado através de um navegador web em um computador, e requer um login e senha de acesso específicos para o ambiente de teste.
 
 <!-- TODO ## Necessidades principais quanto ao ambiente
 
