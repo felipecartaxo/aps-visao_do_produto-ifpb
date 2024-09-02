@@ -53,7 +53,7 @@ O objetivo deste documento é coletar, analisar e definir características e as 
 
 Ele se concentra nos recursos necessários aos stakeholders e aos usuários, e nas razões que levam a essas necessidades.
 
-Os detalhes de como o **Sistema de Inventário de Equipamentos de Informática (SIEI)** atingem essas necessidades são descritos nas _especificações de casos de uso_ e nos _requisitos funcionais_.
+Os detalhes de como o **Sistema de Inventário de Equipamentos de Informática (SIEI)** atinge essas necessidades são descritos nas _especificações de casos de uso_ e nos _requisitos funcionais_.
 
 ## Definições e abreviações
 
@@ -61,10 +61,10 @@ Os detalhes de como o **Sistema de Inventário de Equipamentos de Informática (
 
 | Termo | Definição                                    |
 | :---: | -------------------------------------------- |
+| SIEI | Sistema de Inventário de Equipamentos de Informática |
 | Empreender PB | Secretaria de Empreendedorismo da Paraíba |
 | SGTI | Subgerência de Tecnologia da Informação |
-| SIEI | Sistema de Inventário de Equipamentos de Informática |
-| GLPI | Sistema de Gerenciamento de Chamados usado internamente na secretaria |
+| GLPI | Sistema de gerenciamento de chamados usado internamente na secretaria |
 | OS | Ordem de Serviço |
 |  UML  | Linguagem de Modelagem Unificada             |
 
@@ -79,7 +79,7 @@ Os detalhes de como o **Sistema de Inventário de Equipamentos de Informática (
 
 ## Escopo do produto
 
-O **Sistema de Inventário de Equipamentos de Informática (SIEI)** é um sistema que tem como objetivo centralizar e padronizar o controle de equipamentos e materiais de consumo dentro da SGTI do Empreender Paraíba. O sistema será utilizado por funcionários/estagiários da própria SGTI que necessitam ter mais controle e precisão no gerenciamento destes equipamentos.
+O **Sistema de Inventário de Equipamentos de Informática (SIEI)** é um sistema que tem como objetivo centralizar e padronizar o controle de equipamentos e materiais de consumo dentro da SGTI do Empreender Paraíba. O sistema será utilizado por funcionários/estagiários da própria SGTI, incluindo também a própria responsável pelo setor, que necessitam ter mais controle e precisão no gerenciamento destes equipamentos.
 
 ---
 
@@ -90,8 +90,8 @@ O **Sistema de Inventário de Equipamentos de Informática (SIEI)** é um sistem
 O **Sistema de Inventário de Equipamentos de Informática (SIEI)** apresenta várias oportunidades de negócios, tais como:
 
 1. **Consultoria e treinamento**: oferecer serviços de consultoria e treinamento para ajudar os usuários a maximizar o uso do SIEI. A equipe responsável pelo SIEI pode prestar suporte na configuração inicial, personalização do sistema para atender às necessidades específicas da SGTI e oferecer treinamento contínuo aos usuários para garantir uma utilização eficiente do sistema.
-2. **Disponibilizar um desenvolvedor para atuar internamente**: disponibilizar um funcionário para atuar presencialmente no Empreender PB, juntamente com os funcionários da SGTI. O funcionário em questão atuaria como um PO e ajudaria a equipe de desenvolvimento do SIEI a implementar novas funcionalidades com mais rapidez e eficiência, de acordo com as demandas internas do setor.
-3. **Parcerias estratégicas**: o SIEI pode formar parcerias com fornecedores de equipamentos e materiais, permitindo que as secretarias façam aquisições diretamente através do sistema. Essas parcerias podem incluir descontos ou condições especiais para compras realizadas por meio do SIEI.
+2. **Disponibilizar um funcionário (PO) para atuar internamente**: disponibilizar um funcionário para atuar presencialmente no Empreender PB, juntamente com os funcionários da SGTI. O funcionário em questão atuaria como um PO e ajudaria a equipe de desenvolvimento do SIEI a implementar novas funcionalidades com mais rapidez e eficiência, de acordo com as demandas internas da SGTI.
+3. **Parcerias estratégicas**: o SIEI pode formar parcerias com fornecedores de equipamentos e materiais de Informática, permitindo que as secretarias façam aquisições diretamente através do sistema. Essas parcerias podem incluir descontos ou condições especiais para compras realizadas por meio do SIEI.
 4. **Serviços de manutenção no sistema**: a equipe do SIEI pode oferecer um serviço adicional de monitoramento e manutenção do sistema.
 5. **Integração com a GLPI**: o SIEI pode ser integrado com a GLPI, visando alcançar uma gestão ainda mais centralizada e eficiente, facilitando o fluxo de informações entre diferentes aplicações.
 6. **Expansão para outros setores do Empreender PB**: a equipe do SIEI pode implementar e configurar a aplicação para outros setores que tenham interesse em fazer uso do software. Neste caso, algumas adaptações seriam feitas para atender as especificidades de cada setor.
@@ -102,10 +102,9 @@ O **Sistema de Inventário de Equipamentos de Informática (SIEI)** apresenta v�
 | Benefícios                    | Problemas resolvidos                                                    | Afetados                                   |
 | ----------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
 | Facilidade no gerenciamento | Dificuldade em gerenciar os equipamentos por meio de diversas ferramentas | Funcionários da SGTI, gestor |
-| Otimização do tempo gasto para inventariar os equipamentos | Tempo e esforço para gerenciar o inventário | Funcionários da SGTI, gestor |
+| Otimização do tempo gasto para inventariar e consultar os equipamentos | Tempo e esforço para gerenciar e realizar consultas no inventário | Funcionários da SGTI, gestor |
 | Consistência dos registros de equipamentos | Inconsistência nos registros devido ao uso de diversas ferramentas | Funcionários da SGTI |
-| Melhoria no planejamento | Dificuldade em prever a necessidade de adquirir novos materiais | Gestor |
-| Alertas programados | Escassez de equipamentos devido às dificuldades para acompanhar e atualizar os valores em estoque | Todos os setores da secretaria |
+| Melhoria no planejamento | Dificuldade em prever a necessidade de adquirir novos equipamentos/materiais | Gestor |
 
 ---
 
@@ -119,11 +118,11 @@ Segue abaixo a lista de stakeholders.
 
 | Stakeholder                            | Descrição                                                                                                                                               | Papel                                                           |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Gestor | Pessoa responsável pela SGTI que irá determinar quem e quais funcionalidades do sistema os funcionários do setor poderão utlizar | Administrar os acessos e permissões para realizar operações mais críticas (como remoção ou atualização) |
-| Usuários | Funcionários do setor que irão utilizar o SIEI para manter o inventário da secretaria atualizado | Usuário do sistema
+| Gestor | Pessoa responsável pela SGTI que irá determinar quem e quais funcionalidades do sistema os funcionários do setor poderão utlizar. Além disto, também será responsável por decisões relacionadas à aquisições de novos equipamentos/materiais | Administrar os acessos e permissões para realizar operações mais críticas (como remoção ou atualização). Realizar aquisição de novos equipamentos/materiais |
+| Usuários | Pessoas do setor que irão utilizar o SIEI para manter o inventário da secretaria atualizado e para realizar consultas | Usuário do sistema
 | Equipe de Suporte | Profissionais responsáveis por fornecer suporte aos usuários do SIEI | Fornecer suporte em relação ao SIEI e suas respectivas funcionalidades |
 | Equipe de Desenvolvimento | Profissionais responsáveis por desenvolver e manter o sistema. | Desenvolvedores |
-| Gerente de Projeto | Profissional responsável por gerenciar o projeto e garantir que o sistema seja entregue dentro do prazo e orçamento definidos. | Gerente de Projeto |
+| Gerente de projeto | Profissional responsável por gerenciar o projeto e garantir que o sistema seja entregue dentro do prazo e orçamento definidos. | Gerente de projeto |
 
 ## Usuários e atores
 
@@ -131,10 +130,10 @@ Segue tabela com os usuários e atores do sistema:
 
 | Usuário                  | Descrição                                                                                                    | Responsabilidades                                                                                                                                                                                                                | Stakeholders                                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Gestor da SGTI | Pessoa que utilizará o sistema com maior ênfase em tarefas administrativas e de gestão do próprio setor | Acompanhar diariamente a quantidade de equipamentos no inventário. Delegar quais funcionários podem ou não ter permissão para desempenhar funcionalidades mais críticas | Gestor, Usuário |
-| Clientes | Funcionários da SGTI que utilizam o sistema para manter o inventário atualizado. | Registrar os equipamentos de informática e de consumo adquiridos. Atualizar a quantidade, situação, localização e demais informações acerca dos equipamentos. | Usuário |
-| Atendente de suporte | Profissional responsável por atender os clientes e fornecer suporte em relação ao uso do sistema. | Atender as solicitações dos clientes relacionadas ao registro de equipamentos e demais funcionalidades do SIEI. | Usuário, Equipe de Suporte |
-| Product Owner | Profissional que entende das regras de negócio da SGTI e que auxilia a equipe de desenvolvimento do SIEI. | Acompanhar a rotina dos funcionários da SGTI. Repassar demandas da SGTI para a equipe de desenvolvimento. Auxiliar a equipe de desenvolvimento na implementação de novas funcionalidades | Equipe de Desenvolvimento |
+| Gestor da SGTI | Pessoa que utilizará o sistema com maior ênfase em tarefas administrativas e de gestão do próprio setor | Acompanhar diariamente a quantidade de equipamentos no inventário. Delegar quais funcionários podem ou não ter permissão para desempenhar funcionalidades mais críticas. | Gestor, Usuário |
+| Clientes | Pessoas que utilizam o sistema para manter o inventário atualizado e/ou realizar consultas. | Registrar os equipamentos de informática e de consumo adquiridos. Atualizar a quantidade, situação, localização e demais informações acerca dos equipamentos. Realizar consultas. | Usuário |
+| Atendente de suporte | Profissional responsável por atender os clientes e fornecer suporte em relação ao uso do sistema. | Atender as solicitações dos clientes relacionadas ao registro de equipamentos e demais funcionalidades do SIEI. | Equipe de Suporte, Usuários |
+| Product Owner | Profissional que entende das regras de negócio da SGTI e que auxilia a equipe de desenvolvimento do SIEI. | Acompanhar a rotina dos funcionários da SGTI. Repassar demandas da SGTI para a equipe de desenvolvimento. Auxiliar a equipe de desenvolvimento na implementação de novas funcionalidades | Equipe de Desenvolvimento, Usuários |
 | Administrador do Sistema | Profissional responsável por gerenciar e manter o sistema. | Gerenciar os usuários do sistema, realizar backup dos dados, atualizar o sistema e garantir o seu funcionamento adequado. | Equipe de Desenvolvimento, Gerente de Projeto                                                   |
 
 ---
