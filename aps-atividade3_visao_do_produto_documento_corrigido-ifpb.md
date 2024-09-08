@@ -199,15 +199,19 @@ O processo de instalação abrangerá a configuração adequada dos ambientes op
 Esta seção define e descreve as características do SIEI. Trata-se dos
 requisitos de alto nível do sistema que são necessários para propiciar benefícios aos usuários.
 
-1. O sistema deve permitir o cadastro de equipamentos e materiais de consumo, incluindo informações sobre modelo, marca, quantidade e data de aquisição. No caso dos equipamentos, além dessas informações, os dados a seguir também devem ser informados: patrimônio, número de série, endereço IP, MAC, situação do equipamento, funcionário responsável, setor onde o equipamento está alocado e a data que a garantia do equipamento expirará.
+1. O sistema deve permitir o cadastro de equipamentos e materiais de consumo, incluindo informações sobre modelo, marca, quantidade, tipo de equipamento/material e data de aquisição. No caso dos equipamentos, além dessas informações, os dados a seguir também devem ser informados: patrimônio, número de série, endereço IP, MAC, situação do equipamento, funcionário responsável, setor onde o equipamento está alocado e a data que a garantia do equipamento expirará.
 1. O sistema deve permitir que os dados de um determinado registro de equipamento/material de consumo possa ser alterado, respeitando as regras determinadas pela gestora da SGTI.
-1. O sistema deve permitir a consulta de um equipamento de Informática a partir de um filtro especificado pelo próprio usuário ou pelos filtros padrão disponibilizados pelo próprio SIEI.
-1. O sistema deve permitir a consulta de um material de consumo a partir de um filtro especificado pelo próprio usuário ou pelos filtros padrão disponibilizados pelo próprio SIEI.
+1. O sistema deve oferecer funcionalidades de consulta avançada, permitindo a pesquisa de equipamentos por critérios como patrimônio, número de série, situação do equipamento, funcionário responsável, etc.
+1. O sistema deve oferecer funcionalidades de consulta avançada, permitindo a pesquisa de materiais de consumo por critérios como marca, modelo, tipo de material, etc.
+1. O sistema deve permitir a configuração de permissões de acesso, definindo quais usuários podem realizar operações específicas, como adicionar, editar ou remover itens do inventário.
 1. O sistema deve permitir a exclusão de um determinado registro, desde que respeite as regras determinadas pela gestora da SGTI.
+1. O sistema deve possibilitar a atualização em tempo real das informações a respeito dos equipamentos e materiais de consumo.
+1. O sistema deve manter um histórico completo de movimentações dos equipamentos, registrando todas as alterações de localização, status, responsável e data em que a mudança em questão foi realizada.
 1. O sistema deve enviar notificações aos usuários quando a garantia de um equipamento de Informática estiver próxima do vencimento, para que o equipamento em questão possa ser testado e, caso algum problema seja identificado, a garantia possa ser devidamente utilizada.
 1. O sistema deve enviar notificações aos usuários quando um determinado equipamento de consumo estiver se esgotando. Deste modo, a gestora da SGTI poderá fazer a solicitação deste material antes de que algum setor da secretaria possa ser afetado.
-1. O sistema deve permitir o acompanhamento de um equipamento que não está sendo utilizado, ou seja, que está no estoque da própria SGTI. O acompanhamento em questão, além das informações básicas (modelo, marca, patrimônio etc), deve exibir também informações sobre a situação atual do equipamento e, caso possua algum problema, deverá também conter uma descrição com uma análise detalhada do problema.
-1. O sistema deve permitir o acompanhamento dos materiais de consumo, preocupando-se principalmente em destacar, além das informações padrão (modelo, marca, quantidade etc), a quantidade em estoque.
+1. O sistema deve realizar backups automáticos periódicos para garantir a segurança dos dados e facilitar a recuperação em caso de falhas.
+1. O sistema deve permitir a exportação de dados do inventário para formatos como CSV ou PDF, facilitando o compartilhamento e a análise interna.
+1. O sistema deve permitir o registro de novos usuários, com diferentes níveis de permissão de acesso, desde administradores até usuários comuns.
 1. O sistema deve garantir a segurança das informações dos usuários, equipamentos e materiais de consumo, com acesso restrito e controle de permissões de usuários.
 1. O sistema deve ter uma interface de usuário amigável e de fácil utilização, para que os usuários possam utilizar as funcionalidades sem dificuldade.
 1. O sistema deve ter um desempenho satisfatório, com tempos de resposta rápidos e sem interrupções ou falhas.
