@@ -219,7 +219,7 @@ requisitos de alto nível do sistema que são necessários para propiciar benef�
 1. O sistema deve ser desenvolvido em conformidade com as normas e padrões de qualidade estabelecidos para o desenvolvimento de software.
 1. O sistema deve ser documentado e ter seu código-fonte disponível para auditoria e manutenção futura.
 
-<!-- TODO ## Restrições
+## Restrições
 
 Algumas possíveis restrições que podem ser aplicadas ao sistema são:
 
@@ -230,21 +230,20 @@ Algumas possíveis restrições que podem ser aplicadas ao sistema são:
 5. **Restrições de usabilidade:** O sistema deve ser fácil de usar e acessível para usuários com deficiências visuais e motoras.
 6. **Restrições de interoperabilidade**: O sistema deve ser capaz de interoperar com outros sistemas e aplicativos.
 7. **Restrições de desempenho**: O sistema deve atender aos requisitos de desempenho, como velocidade, escalabilidade e disponibilidade.
-8. **Restrições geográficas**: O sistema deve ser compatível com os requisitos geográficos, como fusos horários e os idiomas inglês, espanhol e português. 
+8. **Restrições geográficas**: O sistema deve ser compatível com os requisitos geográficos, como fusos horários e os idiomas inglês, espanhol e português.
 
---- -->
+---
 
-<!-- TODO Data: 01 de abril de 2023
+Data: 28 de agosto de 2024
 
 **Validado por:**
 
 <address>
-<a href="mailto:maxwell@empresa.com.br">Maxwell Anderson I. do Amaral</a> | Engenheiro de Software<br>
-maxwell@empresa.com.br<br>
+Caio Bernadelli, Felipe Cartaxo, Gabriel Oliveira, Michel Lavanere, Sheila Lee | Equipe de Desenvolvimento do SIEI
 Empresa.com<br>
 Box 564, João Pessoa<br>
 BRA
 </address>
 
 ---
-Criado em Março de 2023 por _Maxwell Anderson_ -->
+Criado em Agosto de 2024 pela _Equipe de Desenvolvimento do SIEI_ -->
